@@ -1,5 +1,67 @@
-h1 {color:rgb(216, 113, 17); font-size:xx-large; font-style: oblique; text-align: center; font-weight:bolder;}
-h2 {color: rgb(4, 99, 99); font-size: x-large; font-style: italic; text-align: left; font-weight: bolder;}
-body {background-color: aquamarine;}
-img {height: 400px;}
-img {width: 200px;}
+h1 {
+  color: rgb(3, 46, 82);
+  font-size: xx-large;
+  font-style: oblique;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+h2 {
+  color: rgb(4, 99, 99);
+  font-size: x-large;
+  font-style: italic;
+  text-align: left;
+  font-weight: bolder;
+}
+body {
+  background-color: rgb(204, 124, 92);
+}
+
+img {
+  height: 400px;
+  width: 200px;
+  padding-bottom: 0px;
+  border-radius: 100ch;
+}
+.image1 {
+  position: relative;
+  left: 30px;
+  background-color: black;
+  border-radius: 100px;
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: 40px;
+}
+
+.image2 {
+  position: relative;
+  left: 30px;
+  background-color: black;
+  border-radius: 100px;
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: 20px;
+}
+h3 .topnav {
+  padding: 40px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: rgb(73, 3, 3);
+}
+
+.about-img {
+  border-image: 10cm;
+  border-radius: 100ch;
+}
